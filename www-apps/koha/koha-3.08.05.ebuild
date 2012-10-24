@@ -18,6 +18,7 @@ IUSE=""
 COMMON_DEPS="
 	>=dev-lang/perl-5.10
 	dev-util/zebra
+	app-portage/g-cpan
 
 dev-perl/Business-ISBN
 dev-perl/CGI-Session

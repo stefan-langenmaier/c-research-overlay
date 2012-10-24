@@ -19,6 +19,7 @@ SLOT="1.2"
 RDEPEND="$(ruby_implementation_depend ruby18 '>=' -1.8.6)[ssl]
 	dev-util/zebra
 	dev-libs/yaz
+	app-portage/g-cpan
 "
 
 ruby_add_rdepend "virtual/ruby-ssl
