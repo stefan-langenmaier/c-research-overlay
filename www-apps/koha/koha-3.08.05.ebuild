@@ -19,14 +19,15 @@ COMMON_DEPS="
 	>=dev-lang/perl-5.10
 	dev-util/zebra
 	app-portage/g-cpan
-
+	media-gfx/graphicsmagick[perl]
+dev-perl/XML-Simple
 dev-perl/Business-ISBN
 dev-perl/CGI-Session
 dev-perl/Class-Factory-Util
 dev-perl/Data-ICal
 dev-perl/Date-Calc
 dev-perl/DateManip
-dev-perl/DateTime
+>=dev-perl/DateTime-0.58
 dev-perl/DateTime-Event-ICal
 dev-perl/DateTime-Format-DateParse
 dev-perl/DateTime-Format-ICal
@@ -39,6 +40,7 @@ dev-perl/HTML-Format
 dev-perl/HTML-Scrubber
 dev-perl/HTTP-Cookies
 dev-perl/HTTP-Message
+dev-perl/JSON
 dev-perl/Lingua-Stem
 dev-perl/Locale-PO
 dev-perl/MARC-Record
